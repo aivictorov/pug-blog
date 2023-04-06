@@ -1,0 +1,26 @@
+header {
+	padding: 50px 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #DDE2E7;
+}
+
+.header__buttons {
+	display: flex;
+	align-items: center;
+}
+
+.header__buttons-search {
+	margin-right: 45px;
+	transition: opacity .2s ease-in;
+
+	& button {
+		border: none;
+		background-color: transparent;
+	}
+
+	&:hover{
+		opacity: 0.6;
+	}
+}

@@ -1,0 +1,25 @@
+footer
+    .footer
+        .container 
+            .row
+                .col-3
+                    +footer-nav([
+                            {title: 'Latest Posts', link: '#!'}, 
+                            {title: 'Popular Posts', link: '#!'} 
+                        ])
+                .col-3 
+                    +footer-nav([
+                            {title: 'Search', link: '#!'}, 
+                            {title: 'Contact Information', link: '#!'} 
+                        ])
+
+                .col-3 
+                    +footer-nav([
+                            {title: 'Privacy Policy', link: '#!'}, 
+                            {title: 'Terms of Use', link: '#!'} 
+                        ])
+                .col-3 
+                    include ./social-icons 
+    .copyright
+        .container
+            .copyright__text © Copyright 2019. All rights reserved.

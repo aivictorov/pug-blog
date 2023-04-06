@@ -1,0 +1,24 @@
+.widget-instagram-item {
+    margin-bottom: 30px;
+    transition: opacity .2s ease-in;
+
+    &:last-child,
+    &:nth-last-child(2) {
+        margin-bottom: 0;
+    }
+
+    &:nth-child(odd) {
+        margin-right: 30px;
+    }
+
+    & img {
+        width: 120px;
+        height: 100px;
+        border-radius: 2px;
+        object-fit: cover;
+    }
+
+	&:hover{
+		opacity: 0.6;
+	}
+}

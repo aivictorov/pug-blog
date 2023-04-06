@@ -1,0 +1,44 @@
+.post {
+	padding-top: 60px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #DDE2E7;
+}
+
+.post__title {
+	margin-bottom: 15px;
+	font-family: $playfair;
+	font-size: 33px;
+	text-align: center;
+}
+
+.post__info {
+	margin-bottom: 40px;
+	font-weight: 700;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	color: $gray;
+}
+
+.post__image {
+	margin-bottom: 40px;
+
+	& img {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+	}
+}
+
+.post__content {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.75;
+	margin-bottom: 40px;
+}
+
+.post__footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

@@ -1,0 +1,39 @@
+.button-rounded {
+	padding: 0 40px;
+	height: 38px;
+	background-color: $accent;
+	border-radius: 50px;
+	border: none;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 38px;
+	text-transform: uppercase;
+	color: #FFF;
+	cursor: pointer;
+	transition: background-color .2s ease-in;
+
+	&:hover {
+		background-color: lighten($accent, 10%);
+	}
+}
+
+.button-read-more {
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	height: 44px;
+	background-color: $accent;
+	border-radius: 6px;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 44px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFF;
+	cursor: pointer;
+	transition: background-color .2s ease-in;
+
+	&:hover {
+		background-color: lighten($accent, 10%);
+	}
+}
